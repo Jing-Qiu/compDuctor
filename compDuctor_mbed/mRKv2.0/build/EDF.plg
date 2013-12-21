@@ -1,0 +1,435 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+S:\MRK-master\MRK-master\mRKv2.0\MRK.uvproj
+Project File Date:  12/05/2013
+
+<h2>Output:</h2>
+Rebuild target 'mbed NXP LPC1768'
+compiling nrk_cpu.cpp...
+compiling nrk_status.cpp...
+compiling nrk_timer.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(177): warning:  #191-D: type qualifier is meaningless on cast type
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(298): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_watchdog.cpp...
+compiling nrk.cpp...
+compiling nrk_error.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_error.cpp(165): warning:  #177-D: variable "i" was declared but never referenced
+compiling nrk_events.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_events.cpp(279): warning:  #177-D: variable "task_ID" was declared but never referenced
+compiling nrk_idle_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_idle_task.cpp(39): warning:  #177-D: variable "stkc" was declared but never referenced
+compiling nrk_reserve.cpp...
+compiling nrk_scheduler.cpp...
+compiling nrk_stack_check.cpp...
+compiling nrk_stats.cpp...
+compiling nrk_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(67): warning:  #177-D: variable "vall" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(272): warning:  #550-D: variable "rtype" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(566): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_time.cpp...
+compiling hal_wait.cpp...
+compiling ulib.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(338): warning:  #9-D: nested comment is not allowed
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(606): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(657): warning:  #940-D: missing return statement at end of non-void function "nrk_get_button"
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(826): warning: C4017W: uClk may be used before being set
+assembling my_asm.s...
+mrk_uvision_lpc1768\mrk\my_asm.s(93): warning: A1581W: Added 2 bytes of padding at address 0x6a
+compiling adc_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(69): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(73): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(76): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(96): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(105): warning:  #68-D: integer conversion resulted in a change of sign
+compiling ff_basic_sensor.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(68): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(82): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(86): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(89): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(170): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(193): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(209): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(265): warning:  #1-D: last line of file ends without a newline
+compiling nrk_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_driver.cpp(141): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling bmac.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(462): warning:  #550-D: variable "result" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(503): warning:  #177-D: variable "result" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(555): warning:  #550-D: variable "e" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(556): warning:  #177-D: variable "backoff" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(804): warning:  #1-D: last line of file ends without a newline
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(66): warning:  #550-D: variable "g_chan" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(72): warning:  #550-D: variable "tx_reserve" was set but never used
+compiling basic_rf.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #61-D: integer operation result is out of range
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #68-D: integer conversion resulted in a change of sign
+compiling MRF24J40.cpp...
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(277): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1093): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1094): warning: C4017W: hand may be used before being set
+linking...
+.\build\PIANO.axf: Error: L6200E: Symbol i multiply defined (by main.o and nrk_task.o).
+".\build\PIANO.axf" - 1 Errors, 39 Warning(s).
+Target not created
+Rebuild target 'mbed NXP LPC1768'
+compiling nrk_cpu.cpp...
+compiling nrk_status.cpp...
+compiling nrk_timer.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(177): warning:  #191-D: type qualifier is meaningless on cast type
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(298): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_watchdog.cpp...
+compiling nrk.cpp...
+compiling nrk_error.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_error.cpp(165): warning:  #177-D: variable "i" was declared but never referenced
+compiling nrk_events.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_events.cpp(279): warning:  #177-D: variable "task_ID" was declared but never referenced
+compiling nrk_idle_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_idle_task.cpp(39): warning:  #177-D: variable "stkc" was declared but never referenced
+compiling nrk_reserve.cpp...
+compiling nrk_scheduler.cpp...
+compiling nrk_stack_check.cpp...
+compiling nrk_stats.cpp...
+compiling nrk_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(67): warning:  #177-D: variable "vall" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(272): warning:  #550-D: variable "rtype" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(566): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_time.cpp...
+compiling hal_wait.cpp...
+compiling ulib.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(338): warning:  #9-D: nested comment is not allowed
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(606): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(657): warning:  #940-D: missing return statement at end of non-void function "nrk_get_button"
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(826): warning: C4017W: uClk may be used before being set
+assembling my_asm.s...
+mrk_uvision_lpc1768\mrk\my_asm.s(93): warning: A1581W: Added 2 bytes of padding at address 0x6a
+compiling adc_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(69): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(73): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(76): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(96): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(105): warning:  #68-D: integer conversion resulted in a change of sign
+compiling ff_basic_sensor.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(68): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(82): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(86): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(89): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(170): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(193): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(209): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(265): warning:  #1-D: last line of file ends without a newline
+compiling nrk_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_driver.cpp(141): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling bmac.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(462): warning:  #550-D: variable "result" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(503): warning:  #177-D: variable "result" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(555): warning:  #550-D: variable "e" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(556): warning:  #177-D: variable "backoff" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(804): warning:  #1-D: last line of file ends without a newline
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(66): warning:  #550-D: variable "g_chan" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(72): warning:  #550-D: variable "tx_reserve" was set but never used
+compiling basic_rf.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #61-D: integer operation result is out of range
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #68-D: integer conversion resulted in a change of sign
+compiling MRF24J40.cpp...
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(277): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1093): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1094): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30820 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 39 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(277): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1097): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1098): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30844 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=30844 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1105): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1106): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30872 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1107): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1108): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30876 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1108): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1109): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30908 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30924 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30924 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30952 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30968 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30968 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30968 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=30968 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30972 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30968 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30980 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30976 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30984 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30984 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30984 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=30984 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 0 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30992 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30992 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=30944 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=31004 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=31036 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+Error: Q0108E: Could not create output file 'E:\PIANO.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\PIANO.axf" - 0 Errors, 3 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling nrk_cpu.cpp...
+compiling nrk_status.cpp...
+compiling nrk_timer.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(177): warning:  #191-D: type qualifier is meaningless on cast type
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(298): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_watchdog.cpp...
+compiling nrk.cpp...
+compiling nrk_error.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_error.cpp(165): warning:  #177-D: variable "i" was declared but never referenced
+compiling nrk_events.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_events.cpp(279): warning:  #177-D: variable "task_ID" was declared but never referenced
+compiling nrk_idle_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_idle_task.cpp(39): warning:  #177-D: variable "stkc" was declared but never referenced
+compiling nrk_reserve.cpp...
+compiling nrk_scheduler.cpp...
+compiling nrk_stack_check.cpp...
+compiling nrk_stats.cpp...
+compiling nrk_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(67): warning:  #177-D: variable "vall" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(272): warning:  #550-D: variable "rtype" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(566): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_time.cpp...
+compiling hal_wait.cpp...
+compiling ulib.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(338): warning:  #9-D: nested comment is not allowed
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(606): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(657): warning:  #940-D: missing return statement at end of non-void function "nrk_get_button"
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(826): warning: C4017W: uClk may be used before being set
+assembling my_asm.s...
+mrk_uvision_lpc1768\mrk\my_asm.s(93): warning: A1581W: Added 2 bytes of padding at address 0x6a
+compiling adc_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(69): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(73): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(76): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(96): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(105): warning:  #68-D: integer conversion resulted in a change of sign
+compiling ff_basic_sensor.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(68): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(82): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(86): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(89): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(170): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(193): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(209): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(265): warning:  #1-D: last line of file ends without a newline
+compiling nrk_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_driver.cpp(141): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling bmac.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(462): warning:  #550-D: variable "result" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(503): warning:  #177-D: variable "result" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(555): warning:  #550-D: variable "e" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(556): warning:  #177-D: variable "backoff" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(804): warning:  #1-D: last line of file ends without a newline
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(66): warning:  #550-D: variable "g_chan" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(72): warning:  #550-D: variable "tx_reserve" was set but never used
+compiling basic_rf.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #61-D: integer operation result is out of range
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #68-D: integer conversion resulted in a change of sign
+compiling MRF24J40.cpp...
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(284): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1110): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(1111): warning: C4017W: hand may be used before being set
+linking...
+Program Size: Code=31036 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+Error: Q0108E: Could not create output file 'E:\PIANO.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\PIANO.axf" - 0 Errors, 39 Warning(s).
+Build target 'mbed NXP LPC1768'
+linking...
+Program Size: Code=31036 RO-data=2216 RW-data=424 ZI-data=5416  
+After Build - User command #1: fromelf --bin -o E:\PIANO.bin .\build\PIANO.axf
+".\build\PIANO.axf" - 0 Errors, 0 Warning(s).

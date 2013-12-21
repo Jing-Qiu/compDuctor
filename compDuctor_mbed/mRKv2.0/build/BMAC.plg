@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+S:\MRK-master\MRK-master\mRKv2.0\MRK.uvproj
+Project File Date:  11/25/2013
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+S:\Piano Project\task code version 9\main.cpp(192): warning:  #550-D: variable "currentTime" was set but never used
+S:\Piano Project\task code version 9\main.cpp(808): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=27192 RO-data=1916 RW-data=676 ZI-data=3416  
+After Build - User command #1: fromelf --bin -o F:\porject.bin .\build\porject.axf
+".\build\porject.axf" - 0 Errors, 2 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+S:\Piano Project\task code version 9\main.cpp(192): warning:  #550-D: variable "currentTime" was set but never used
+S:\Piano Project\task code version 9\main.cpp(808): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=28696 RO-data=1916 RW-data=668 ZI-data=3368  
+After Build - User command #1: fromelf --bin -o F:\porject.bin .\build\porject.axf
+".\build\porject.axf" - 0 Errors, 2 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+S:\Piano Project\task code version 9\main.cpp(192): warning:  #550-D: variable "currentTime" was set but never used
+S:\Piano Project\task code version 9\main.cpp(808): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=28696 RO-data=1916 RW-data=668 ZI-data=3368  
+After Build - User command #1: fromelf --bin -o F:\porject.bin .\build\porject.axf
+".\build\porject.axf" - 0 Errors, 2 Warning(s).
