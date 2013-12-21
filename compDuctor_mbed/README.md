@@ -14,4 +14,5 @@ Nano-RK, a real-time operating system for sensor networks.
 Copyright (C) 2007, Real-Time and Multimedia Lab, Carnegie Mellon University
 All rights reserved.
  
+The path of the code for adding to the MRK project is:  ..\compDuctor_mbed\mRKv2.0\mrk_uvision_lpc1768\mrk\NanoRk\Projects\compDuctor\main.cpp
  
