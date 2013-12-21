@@ -7,4 +7,8 @@ The goal of the project was to build a machine that could play the piano. We wan
 
 This github repository is consist of two major part. The first one is the code on the mbed side. We used the MRK-master as the starting point. The second part is the Android Application for communicating with the mbed.
 
+Link to Project Blog: http://compductor.blogspot.com/
+Link to Project Video: 
+Link to Project Code: https://github.com/Jing-Qiu/compDuctor/
+
 
