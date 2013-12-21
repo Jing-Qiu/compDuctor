@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/test"
+    android:orientation="vertical" >
+
+
+    
+    <ListView 
+	   android:id="@+id/listview"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:layout_weight="10"/>
+    
+     
+    <Button
+        android:id="@+id/play_list_button_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addNewSong"
+        android:text="@string/play_list_button_add" />
+    
+     <Button
+        android:id="@+id/play_list_button_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="refreshLibrary"
+        android:text="@string/play_list_button_refresh" /> 
+    
+    <Button
+        android:id="@+id/play_list_button_clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearSongs"
+        android:text="@string/play_list_button_clear" />
+    
+    <Button
+        android:id="@+id/play_list_button_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backMain"
+        android:text="@string/play_list_button_back" />  
+        
+ 
+</LinearLayout>
