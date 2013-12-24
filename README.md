@@ -9,7 +9,7 @@ This github repository is consist of two major part. The first one is the code o
 
 Link to Project Blog: http://compductor.blogspot.com/ 
 
-Link to Project Video: 
+Link to Project Video: http://www.youtube.com/watch?v=wLq-arGa5Kk
 
 Link to Project Code: https://github.com/Jing-Qiu/compDuctor/
 
